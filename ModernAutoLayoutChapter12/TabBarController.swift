@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         
 //        UITabBar.appearance().barTintColor = .white
-//        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().isTranslucent = false
         setupVCs()
     }
     
